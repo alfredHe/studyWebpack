@@ -1,0 +1,24 @@
+{
+  "name": "01-start",
+  "version": "1.0.0",
+  "description": "",
+  "preview": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.1",
+    "loadsh": "0.0.4",
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
