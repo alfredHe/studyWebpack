@@ -1,0 +1,19 @@
+{
+  "name": "01-start",
+  "version": "1.0.0",
+  "description": "",
+  "preview": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
